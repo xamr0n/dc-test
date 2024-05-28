@@ -1,8 +1,10 @@
-# README for "5 Random Questions" Quiz Webpage
-
 ## Overview
 
 This project is a simple HTML, CSS, and JavaScript-based quiz application named "5 Random Questions." It generates a random set of five questions from a pool of predefined questions, displays them to the user one at a time, and calculates the score based on the user's answers.
+
+## Demo
+
+[Try it](https://xamr0n.github.io/dc-test)
 
 ## Table of Contents
 
