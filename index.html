@@ -544,10 +544,10 @@ function showScore() {
     scoreText = "PASSED";
     scoreColor = "green";
   } else {
-    scoreText = "PERFECT. CONGRATULATIONS!";
+    scoreText = "PERFECT";
     scoreColor = "blue";
   }
-  scoreEl.innerHTML = `<span style="color: #666; font-family: Impact; font-size: 30px">YOUR SCORE IS   </span><span style="font-family: Impact; font-size: 50px">${score}</span><span style="color: #666; font-family: Impact; font-size: 30px">   OUT OF   </span><span style="color: #666; font-family: Impact; font-size: 50px">${quiz.length}</span><br><br><span style="font-family: Impact; font-size: 50px;"><span style="font-family: Ravie; font-size: 50px; color: ${scoreColor}">${scoreText}</span></span>`;
+  scoreEl.innerHTML = `<span style="color: #666; font-family: Impact; font-size: 30px">YOUR SCORE IS <br> </span><span style="font-family: Impact; font-size: 50px">${score}</span><span style="color: #666; font-family: Impact; font-size: 30px"> OUT OF </span><span style="color: #666; font-family: Impact; font-size: 50px">${quiz.length}</span><br><br><span style="font-family: Impact; font-size: 30px;"><span style="font-family: Ravie; font-size: 50px; color: ${scoreColor}">${scoreText}</span></span>`;
   submitBtn.style.display = "none";
 
   resetBtn.innerText = "Reset";
